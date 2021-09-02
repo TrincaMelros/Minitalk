@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/30 13:41:52 by malmeida          #+#    #+#             */
-/*   Updated: 2021/09/02 14:36:05 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/09/02 15:05:10 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,5 @@
 #include <stdio.h>
 #include <signal.h>
 #include "./libft/includes/libft.h"
-#include "./printf/includes/ft_printf.h"
 
 #endif

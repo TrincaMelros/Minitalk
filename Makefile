@@ -6,7 +6,7 @@
 #    By: malmeida <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/02 13:41:45 by malmeida          #+#    #+#              #
-#    Updated: 2021/09/02 14:53:45 by malmeida         ###   ########.fr        #
+#    Updated: 2021/09/02 15:05:30 by malmeida         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,7 +58,6 @@ clean:
 
 fclean:
 	@ $(MAKE) fclean -C $(LIBFT_DIR)
-	@ $(MAKE) fclean -C $(PRINTF_DIR)
 	@ $(RM) $(CLIENT) $(SERVER)
 	@printf "[$(YELLOW)SUCCESS$(RESET)] Libraries removed.\n"
 	@printf "[$(YELLOW)SUCCESS$(RESET)] Executables removed.\n"
