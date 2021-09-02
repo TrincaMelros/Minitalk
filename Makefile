@@ -6,7 +6,7 @@
 #    By: malmeida <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/09/02 13:41:45 by malmeida          #+#    #+#              #
-#    Updated: 2021/09/02 15:05:30 by malmeida         ###   ########.fr        #
+#    Updated: 2021/09/02 17:15:24 by malmeida         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,13 +22,13 @@ LIBFT		=	./libft/libft.a
 LIBFT_DIR	=	./libft
 
 			# Mandatory Variables #
-SRC_CLIENT	=	client.c
-SRC_SERVER	=	server.c
+SRC_CLIENT	=	./srcs/client.c
+SRC_SERVER	=	./srcs/server.c
 
 			# Compiling Variables #
 CC		= gcc
 CFLAGS	= -Wall -Wextra -Werror
-INC		= -I. -I$(LIBFT_DIR) -I$(PRINTF_DIR)
+INC		= -I./includes -I$(LIBFT_DIR) -I$(PRINTF_DIR)
 RM		= rm -f
 
 			# Color Variables #
